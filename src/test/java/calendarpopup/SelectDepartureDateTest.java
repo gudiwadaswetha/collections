@@ -28,5 +28,4 @@ public class SelectDepartureDateTest {
 		driver.findElement(By.xpath("//label[@for='departure']")).click();
 		driver.findElement(By.xpath("//div[text()='"+month+" "+year+"']/../..//p[text()='"+day+"']")).click();
 	}
-
 }
